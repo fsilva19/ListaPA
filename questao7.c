@@ -12,6 +12,5 @@
     p = ++mat;
     //NÃO É VÁLIDA. Pelo mesmo motivo acima, mat é um vetor e não é possível fazer o incremento.
 
-    x = (*mat)+1; 
+    x = (*mat)++; 
     // É VÁLIDA, x vai receber o valor derreferenciado do primeiro elemento de mat e somar 1.
-    return 0;
